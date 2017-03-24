@@ -22,40 +22,40 @@ In order to do that, git concept will be introduced such as:
 
 Participants will then do the follwoing steps:
 
-* clone the repos locally on their end (need git software installed)
+1. clone the repos locally on their end (need git software installed)
   * `git clone https://i[username]@github.com/tmtsoftware/stil-workshop.git`   
   * default landing branch should be `master`
    * `git status` to check on which branch you are
 
-* create your feature/ticket branch from `master` 
+2. create your feature/ticket branch from `master` 
   * `git checkout -b [branch name]`
-* edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
-* Persist your changes in your branch: add/commit
+3. edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
+4. Persist your changes in your branch: add/commit
   * `git add .`
   * `git commit -m"[your message]"`
-* continue changing/adding/commit and check the differences:
+5. continue changing/adding/commit and check the differences:
   * `git diff`
   * Check your commit history: `git log` or more fancy `git log --decorate --graph`
 
-* OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
-  * after pulling, check branches pulled: `git branch --all`
-  * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
+  * OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
+   * after pulling, check branches pulled: `git branch --all`
+   * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
-* Once done, push to server (`-u` means start tracking)
+7. Once done, push to server (`-u` means start tracking)
   * `git push -u origin [branch name]`
 
-* in github.com, button 'pull request' should appear
+8. in github.com, button 'pull request' should appear
   * I will pick one and show a pull request / code review
   * I will show how to request changes (and what to do)
   * Go ahead and play around
 
-* OPTIONAL if request change, need to go to the branch, and
-  * change file, git add / commit / (rebase -i to squash) / push
-  * no rebase there because branch is already in server / no force push either
+  * OPTIONAL if request change, need to go to the branch, and
+   * change file, git add / commit / (rebase -i to squash) / push
+   * no rebase there because branch is already in server / no force push either
 
-* show approve changes and merge from github
+9. Show approve changes and merge from github
 
-* if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
+10. if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 
 ### References:
 

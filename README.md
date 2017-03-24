@@ -1,7 +1,7 @@
 # stil-workshop
 Workshop scratch area for demo purposes
 
-* author: Emmanuel Joliet](ejoliet@ipac.caltech.edu)
+* author: [Emmanuel Joliet](ejoliet@ipac.caltech.edu)
 
 ## Demos
 
@@ -48,7 +48,7 @@ Participants will then do the follwoing steps:
   * I will show how to request changes (and what to do)
   * Go ahead and play around
 
-* OPTIONAL if request change, need to go to my branch, and
+* OPTIONAL if request change, need to go to the branch, and
   * change file, git add / commit / (rebase -i to squash) / push
 
 * show approve changes and merge from github

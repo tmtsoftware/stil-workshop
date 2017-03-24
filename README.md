@@ -39,6 +39,7 @@ Participants will then do the follwoing steps:
 
 * OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
   * after pulling, check branches pulled: `git branch --all`
+  * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
 * Once done, push to server (`-u` means start tracking)
   * `git push -u origin [branch name]`
@@ -50,6 +51,7 @@ Participants will then do the follwoing steps:
 
 * OPTIONAL if request change, need to go to the branch, and
   * change file, git add / commit / (rebase -i to squash) / push
+  * no rebase there because branch is already in server / no force push either
 
 * show approve changes and merge from github
 

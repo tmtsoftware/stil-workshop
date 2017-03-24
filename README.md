@@ -25,21 +25,20 @@ Participants will then do the follwoing steps:
 1. clone the repos locally on their end (need git software installed)
   * `git clone https://i[username]@github.com/tmtsoftware/stil-workshop.git`   
   * default landing branch should be `master`
-   * `git status` to check on which branch you are
+    * `git status` to check on which branch you are
 
 2. create your feature/ticket branch from `master` 
   * `git checkout -b [branch name]`
 3. edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
 4. Persist your changes in your branch: add/commit
-  * `git add .`
-  * `git commit -m"[your message]"`
+  1. `git add .`
+  2. `git commit -m"[your message]"`
 5. continue changing/adding/commit and check the differences:
-  * `git diff`
-  * Check your commit history: `git log` or more fancy `git log --decorate --graph`
-
-  * OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
-   * after pulling, check branches pulled: `git branch --all`
-   * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
+  1. `git diff`
+  2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
+  3. OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
+    * after pulling, check branches pulled: `git branch --all`
+    * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
 7. Once done, push to server (`-u` means start tracking)
   * `git push -u origin [branch name]`
@@ -48,10 +47,10 @@ Participants will then do the follwoing steps:
   * I will pick one and show a pull request / code review
   * I will show how to request changes (and what to do)
   * Go ahead and play around
-
+  
   * OPTIONAL if request change, need to go to the branch, and
-   * change file, git add / commit / (rebase -i to squash) / push
-   * no rebase there because branch is already in server / no force push either
+    * change file, git add / commit / (`rebase -i` to squash) / push
+    * no rebase there because branch is already in server / no force push either
 
 9. Show approve changes and merge from github
 

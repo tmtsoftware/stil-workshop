@@ -26,8 +26,9 @@ Participants will then do the follwoing steps:
   * `git clone https://i[username]@github.com/tmtsoftware/stil-workshop.git`   
   * default landing branch should be `master`
    * `git status` to check on which branch you are
+
 * create your feature/ticket branch from `master` 
-  * `git checkout -b [branch name]
+  * `git checkout -b [branch name]`
 * edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
 * Persist your changes in your branch: add/commit
   * `git add .`
@@ -35,16 +36,24 @@ Participants will then do the follwoing steps:
 * continue changing/adding/commit and check the differences:
   * `git diff`
   * Check your commit history: `git log` or more fancy `git log --decorate --graph`
+
 * OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
   * after pulling, check branches pulled: `git branch --all`
+
 * Once done, push to server (`-u` means start tracking)
   * `git push -u origin [branch name]`
+
 * in github.com, button 'pull request' should appear
-* will pick one and show a pull request / code review
-* show how to request changes (and what to do)
-  * change file/ add / commit / push
+  * I will pick one and show a pull request / code review
+  * I will show how to request changes (and what to do)
+  * Go ahead and play around
+
+* OPTIONAL if request change, need to go to my branch, and
+  * change file, git add / commit / (rebase -i to squash) / push
+
 * show approve changes and merge from github
-* if conflict: see github for guidelines
+
+* if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 
 ### References:
 

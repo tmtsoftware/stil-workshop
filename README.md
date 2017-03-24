@@ -46,7 +46,7 @@ Participants will then do the follwoing steps:
 
 7. in github.com, button 'pull request' should appear
   * I will pick one and show a pull request / code review
-  * I will show a case of how to request changes (and what to do)
+  * I will show a case of how to [request changes](https://help.github.com/articles/about-pull-request-reviews/)  (and what to do)
   * OPTIONAL if request change, need to go to the branch, and
     * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 6 above)
     * no rebase there because branch is already in server / no force push either

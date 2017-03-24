@@ -40,19 +40,20 @@ Participants will then do the follwoing steps:
      * after pulling, check branches pulled: `git branch --all`
      * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
-7. Once done, push to server (`-u` means start tracking)
-  * `git push -u origin [branch name]`
+6. Once done, push to server (`-u` means start tracking)
+  * First time push: `git push -u origin [branch name]`
+  * Following pushes: `git push`
 
-8. in github.com, button 'pull request' should appear
+7. in github.com, button 'pull request' should appear
   * I will pick one and show a pull request / code review
   * I will show a case of how to request changes (and what to do)
   * OPTIONAL if request change, need to go to the branch, and
-    * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 7 above)
+    * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 6 above)
     * no rebase there because branch is already in server / no force push either
 
-9. Show when approve changes and merge from github
+8. Show when approve changes and merge from github
 
-10. if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
+9. if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 
 ### References:
 

@@ -45,13 +45,12 @@ Participants will then do the follwoing steps:
 
 8. in github.com, button 'pull request' should appear
   * I will pick one and show a pull request / code review
-  * I will show how to request changes (and what to do)
-  * Go ahead and play around
+  * I will show a case of how to request changes (and what to do)
   * OPTIONAL if request change, need to go to the branch, and
-    * change file, git add / commit / (`rebase -i` to squash) / push
+    * change file, git add / commit / (`rebase -i` to squash) / push (steps 3 to 7 above)
     * no rebase there because branch is already in server / no force push either
 
-9. Show approve changes and merge from github
+9. Show when approve changes and merge from github
 
 10. if merge conflict (tipycally same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 

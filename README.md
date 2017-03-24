@@ -9,7 +9,7 @@ Will demo:
 
 * github tool: graphs, pull request, code review
 * commits and pushes
-* branches and merging
+* [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
 
 In order to do that, git concept will be introduced such as:
 

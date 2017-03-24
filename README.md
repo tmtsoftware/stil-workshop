@@ -31,14 +31,14 @@ Participants will then do the follwoing steps:
   * `git checkout -b [branch name]`
 3. edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
 4. Persist your changes in your branch: add/commit
-  1. `git add .`
-  2. `git commit -m"[your message]"`
+   1. `git add .`
+   2. `git commit -m"[your message]"`
 5. continue changing/adding/commit and check the differences:
-  1. `git diff`
-  2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
-  3. OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
-    * after pulling, check branches pulled: `git branch --all`
-    * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
+   1. `git diff`
+   2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
+   3. OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
+     * after pulling, check branches pulled: `git branch --all`
+     * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
 7. Once done, push to server (`-u` means start tracking)
   * `git push -u origin [branch name]`
@@ -47,7 +47,6 @@ Participants will then do the follwoing steps:
   * I will pick one and show a pull request / code review
   * I will show how to request changes (and what to do)
   * Go ahead and play around
-  
   * OPTIONAL if request change, need to go to the branch, and
     * change file, git add / commit / (`rebase -i` to squash) / push
     * no rebase there because branch is already in server / no force push either

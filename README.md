@@ -1,6 +1,8 @@
 # stil-workshop
 Workshop scratch area for demo purposes
 
+* author: Emmanuel Joliet](ejoliet@ipac.caltech.edu)
+
 ## Demos
 
 Will demo:
@@ -21,23 +23,26 @@ In order to do that, git concept will be introduced such as:
 Participants will then do the follwoing steps:
 
 * clone the repos locally on their end (need git software installed)
-** `git clone https://i[username]@github.com/tmtsoftware/stil-workshop.git`   
-** check your landing branch: `git status`, should be `master`
-* create branch from `master` 
-** `git checkout -b [branch name]
-* edit and change one line of the file named [scratch.txt](scratch.txt)
-* add/commit
-** `git add .`
-** `git commit -m"[your message]"`
+..* `git clone https://i[username]@github.com/tmtsoftware/stil-workshop.git`   
+..* default landing branch should be `master`
+...* `git status` to check on which branch you are
+* create your feature/ticket branch from `master` 
+..* `git checkout -b [branch name]
+* edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
+* Persist your changes in your branch: add/commit
+..* `git add .`
+..* `git commit -m"[your message]"`
 * continue changing/adding/commit and check the differences:
-** `git diff`
+..* `git diff`
+..* Check your commit history: `git log` or more fancy `git log --decorate --graph`
 * OPTIONAL: if no commit to be made, at that point, you can: pull or rebase
-* Once done, push to server
-** `git push -u origin [branch name] 
+..* after pulling, check branches pulled: `git branch --all`
+* Once done, push to server (`-u` means start tracking)
+..* `git push -u origin [branch name]`
 * in github.com, button 'pull request' should appear
 * will pick one and show a pull request / code review
 * show how to request changes (and what to do)
-** change file/ add / commit / push
+..* change file/ add / commit / push
 * show approve changes and merge from github
 * if conflict: see github for guidelines
 
@@ -45,6 +50,6 @@ Participants will then do the follwoing steps:
 
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com)
-* [Emmanuel Joliet](ejoliet@ipac.caltech.edu)
-* [Slack workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
+* [Useful git tips & tricks](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+* [Leave message in Slack #workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
 

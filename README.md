@@ -29,6 +29,7 @@ Participants will then do the follwoing steps:
 
 2. create your feature/ticket branch from `master` 
   * `git checkout -b [branch name]`
+  * for example, let's take a  ticket from JIRA board [DEMOSS1](https://tmt-project.atlassian.net/secure/RapidBoard.jspa?rapidView=14&projectKey=DEMOSS1&view=planning&selectedIssue=DEMOSS1-15)
 3. edit and change one line of the file in this repos named [scratch.txt](scratch.txt)
 4. Persist your changes in your branch: add/commit
    1. `git add .`

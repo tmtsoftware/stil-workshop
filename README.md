@@ -19,7 +19,7 @@ Participants will be guided through the following steps:
 
 1. **clone** the repos locally on their end (need git software installed)
   * `git clone https://[username]@github.com/tmtsoftware/stil-workshop.git`   
-  * default landing branch should be `master`
+  * default landing branch should be `master` (default per repos)
     * `git status` to check on which branch you are
 
 2. create your feature/ticket **branch** from `master` 
@@ -30,7 +30,7 @@ Participants will be guided through the following steps:
     1. `git add scratch.txt`
     2. `git commit -m"[your message]"`
 5. continue changing/adding/commit and check the differences:
-    1. `git diff`
+    1. `git diff HEAD~0`
     2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`

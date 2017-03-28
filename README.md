@@ -11,7 +11,7 @@ The demo will cover:
 * commits and pushes
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
 
-Participant will need [Git](https://git-scm.com/) installed and some knowledge in order to follow the tutorial.
+Participants will need [Git](https://git-scm.com/) installed and some knowledge of `git` commands in order to follow the tutorial.
 
 ## Hands-on
 

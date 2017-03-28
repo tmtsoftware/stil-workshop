@@ -3,7 +3,7 @@ Workshop scratch area for demo purposes
 
 * author: [Emmanuel Joliet](https://tmt-stil.slack.com/team/ejoliet)
 
-## Demos
+## Demo
 
 The demo will cover:
 

@@ -23,8 +23,10 @@ Participants will be guided through the following steps:
     * `git status` to check on which branch you are
 
 2. create your feature/ticket **branch** from `master` 
-  * `git checkout -b [branch name]`
+  * `git checkout -b [branch name]`, required unique branch name, usually formatted as `ISSUE-ID-meaningful-short-description`
+    * For demo, let's append github `USERNAME` to branch name
   * for example, let's take a  ticket from JIRA board [DEMOSS1](https://tmt-project.atlassian.net/secure/RapidBoard.jspa?rapidView=14&projectKey=DEMOSS1&view=planning&selectedIssue=DEMOSS1-15)
+    * my branch name will be DEMOSS1-EJOLIET-bug-fix
 3. edit and **change** one line of the file in this repos named [scratch.txt](scratch.txt)
 4. **commit** your changes in your branch: add/commit
     1. `git add scratch.txt`

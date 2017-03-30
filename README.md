@@ -55,7 +55,7 @@ Participants will be guided through the following steps:
 
 9. OPTIONAL: If merge conflict (typically, same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 
-10. Once merged, tipically the branch can be deleted from github from the same pull request page.
+10. Once merged, typically the branch can be deleted from github from the same pull request page.
 
 
 ### Need Help?

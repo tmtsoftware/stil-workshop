@@ -55,14 +55,7 @@ Participants will be guided through the following steps:
 
 9. OPTIONAL: If merge conflict (typically, same line have changed in the meantime: github will suggest commands and guidelines to solve and merge locally
 
-10. Once merged, tipically the branch can be deleted from github (and locally with `--prune`)
-  * Locally, the branch remains even after pull/fetch -p
-    * Locally, checkout `master` (`git checkout master`) and 
-    * Do a `git pull`, will bring updates and merge
-      * check that branch is flagged as `gone` (`git branch -avv`) 
-    * `git fetch -p` will clean branches that are gone
-      * See branch is gone with `git branch -avv`
-    * locally, branches can be removed `git branch -d [branch name]`
+10. Once merged, tipically the branch can be deleted from github from the same pull request page.
 
 
 ### Need Help?

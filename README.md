@@ -62,6 +62,7 @@ Participants will be guided through the following steps:
 
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com)
-* [Useful git tips & tricks](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+* [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+* [Pull request template](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
 * [Leave message in Slack #workshop](https://tmt-stil.slack.com/messages/C4JV40FRD)
 * [Slack me](https://tmt-stil.slack.com/messages/@ejoliet)

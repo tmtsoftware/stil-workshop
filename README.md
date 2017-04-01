@@ -32,7 +32,7 @@ Participants will be guided through the following steps:
     1. `git add scratch.txt`
     2. `git commit -m"[your message]"`
 5. continue changing/adding/commit and check the differences:
-    1. `git diff HEAD~0`
+    1. `git show`
     2. Check your commit history: `git log` or more fancy `git log --decorate --graph`
     3. *OPTIONAL*: if no commit to be made, at that point, you can: pull or rebase
      * after pulling, check branches pulled: `git branch --all`

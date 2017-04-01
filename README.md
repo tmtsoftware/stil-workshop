@@ -60,6 +60,7 @@ Participants will be guided through the following steps:
 
 ### Need Help?
 
+* [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Git documentation](https://git-scm.com/docs)
 * [Github guides](https://guides.github.com)
 * [Useful git tips & tricks - autocompletion!](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)

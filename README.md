@@ -7,7 +7,7 @@ Workshop scratch area for demo purposes
 
 The demo will cover:
 
-* github tool: graphs, pull request, code review
+* github tool: graphs/metrics, pull request, code review
 * commits and pushes
 * [branches and merging](https://www.atlassian.com/git/tutorials/using-branches)
 

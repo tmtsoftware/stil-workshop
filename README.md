@@ -38,7 +38,7 @@ Participants will be guided through the following steps:
      * after pulling, check branches pulled: `git branch --all`
      * if `master` got new things, you will need to rebase in order to avoid conflict at the time you pull request
 
-6. Once done of changes, **push** to server (`-u` means start tracking)
+6. Once done of changes, **push** to server (`-u` flag means that you'll start tracking the branch)
   * First time push: `git push -u origin [branch name]`
   * Your local branch is now synced with remote
   * Next pushes: `git push`

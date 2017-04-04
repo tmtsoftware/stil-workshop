@@ -18,7 +18,7 @@ Participants will need [Git](https://git-scm.com/) installed and some knowledge 
 Participants will be guided through the following steps:
 
 1. **clone** the repos locally on their end (need git software installed)
-  * `git clone https://[username]@github.com/tmtsoftware/stil-workshop.git`   
+  * `git clone https://github.com/tmtsoftware/stil-workshop.git` 
   * default landing branch should be `master` (default per repos)
     * `git status` to check on which branch you are
 

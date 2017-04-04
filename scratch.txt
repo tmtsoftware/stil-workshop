@@ -5,7 +5,6 @@ Fortibus esin ero
 O Nojim demis trux
 In demi sum cou sandux
 
-* Feature X is now called Y
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * Curabitur pellentesque libero mattis, ullamcorper ex quis, imperdiet orci.
 

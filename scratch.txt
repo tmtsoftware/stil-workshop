@@ -8,6 +8,8 @@ In demi sum cou sandux
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * Curabitur pellentesque libero mattis, ullamcorper ex quis, imperdiet orci.
 
+This is Kim's change
+
 * Sed eu ipsum eget neque cursus dictum quis vel turpis.
 * Donec auctor purus quis accumsan ornare.
 * Sed at tellus id nisi pellentesque rutrum.

@@ -5,6 +5,7 @@ Fortibus esin ero
 O Nojim demis trux
 In demi sum cou sandux
 
+* this is my new feature
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * Curabitur pellentesque libero mattis, ullamcorper ex quis, imperdiet orci.
 
